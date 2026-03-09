@@ -5574,7 +5574,455 @@
       "clip": true,
       "width": 1440,
       "height": 900,
-      "fill": "$--background"
+      "fill": "$--background",
+      "children": [
+        {
+          "id": "9ADSG",
+          "type": "ref",
+          "ref": "d5ZTS",
+          "height": "fill_container",
+          "name": "sidebar"
+        },
+        {
+          "type": "frame",
+          "id": "8P8gv",
+          "name": "mainContent",
+          "clip": true,
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 48,
+          "children": [
+            {
+              "type": "text",
+              "id": "ZL5Wl",
+              "name": "pageTitle",
+              "fill": "$--foreground",
+              "content": "Rover Management",
+              "fontFamily": "$--font-primary",
+              "fontSize": 32,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "MW8MR",
+              "name": "statsContainer",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g8OqA",
+                  "name": "stat1",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tX3rH",
+                      "fill": "$--muted-foreground",
+                      "content": "Total Active Rovers",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mR8A7",
+                      "fill": "$--card-foreground",
+                      "content": "12",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 36,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IvwZH",
+                  "name": "stat2",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hikk6",
+                      "fill": "$--muted-foreground",
+                      "content": "Available for Rent",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8ImdR",
+                      "fill": "$--card-foreground",
+                      "content": "3",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 36,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bzmja",
+                  "name": "stat3",
+                  "width": "fill_container",
+                  "fill": "$--card",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LHAqr",
+                      "fill": "$--muted-foreground",
+                      "content": "Total Sols Rented",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qIxUB",
+                      "fill": "$--card-foreground",
+                      "content": "4,592",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 36,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eKaF4",
+              "name": "tableSection",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7aL3Z",
+                  "name": "tableTitle",
+                  "fill": "$--foreground",
+                  "content": "Available Rovers",
+                  "fontFamily": "$--font-primary",
+                  "fontSize": 24,
+                  "fontWeight": "bold"
+                },
+                {
+                  "id": "GQygt",
+                  "type": "ref",
+                  "ref": "pPOgy",
+                  "width": "fill_container",
+                  "name": "table",
+                  "children": [
+                    {
+                      "id": "lxjh2",
+                      "type": "ref",
+                      "ref": "T73Cd",
+                      "width": "fill_container",
+                      "name": "headerRow",
+                      "children": [
+                        {
+                          "id": "zlVgn",
+                          "type": "ref",
+                          "ref": "tbrR4",
+                          "width": 160,
+                          "descendants": {
+                            "XGc4z": {
+                              "content": "Rover ID"
+                            }
+                          }
+                        },
+                        {
+                          "id": "Ih6M2",
+                          "type": "ref",
+                          "ref": "tbrR4",
+                          "width": 240,
+                          "descendants": {
+                            "XGc4z": {
+                              "content": "Model"
+                            }
+                          }
+                        },
+                        {
+                          "id": "FH7iR",
+                          "type": "ref",
+                          "ref": "tbrR4",
+                          "width": "fill_container",
+                          "descendants": {
+                            "XGc4z": {
+                              "content": "Location"
+                            }
+                          }
+                        },
+                        {
+                          "id": "0kxVP",
+                          "type": "ref",
+                          "ref": "tbrR4",
+                          "width": 160,
+                          "descendants": {
+                            "XGc4z": {
+                              "content": "Price/Sol"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HXPED",
+                      "type": "ref",
+                      "ref": "T73Cd",
+                      "width": "fill_container",
+                      "name": "row1",
+                      "children": [
+                        {
+                          "id": "usHXo",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "4LIJl",
+                              "fill": "$--foreground",
+                              "content": "RVR-001",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "eI72q",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 240,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "1KkBL",
+                              "fill": "$--foreground",
+                              "content": "Curiosity Mk II",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "a5ULA",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": "fill_container",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "S8Tid",
+                              "fill": "$--foreground",
+                              "content": "Jezero Crater, Sector 4",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "WuUai",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "K0ed6",
+                              "fill": "$--foreground",
+                              "content": "$5,000",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "MF2kk",
+                      "type": "ref",
+                      "ref": "T73Cd",
+                      "width": "fill_container",
+                      "name": "row2",
+                      "children": [
+                        {
+                          "id": "g9caj",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "86MCH",
+                              "fill": "$--foreground",
+                              "content": "RVR-002",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "zD2Ro",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 240,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "0dMKW",
+                              "fill": "$--foreground",
+                              "content": "Perseverance V3",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "us8YV",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": "fill_container",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KU1BN",
+                              "fill": "$--foreground",
+                              "content": "Valles Marineris",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "psff7",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WPeZb",
+                              "fill": "$--foreground",
+                              "content": "$7,500",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "QRGIW",
+                      "type": "ref",
+                      "ref": "T73Cd",
+                      "width": "fill_container",
+                      "name": "row3",
+                      "children": [
+                        {
+                          "id": "vG2LP",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "i4lNq",
+                              "fill": "$--foreground",
+                              "content": "RVR-003",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "7NNpU",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 240,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NgDY1",
+                              "fill": "$--foreground",
+                              "content": "Sojourner Micro",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "kcGR1",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": "fill_container",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UDES2",
+                              "fill": "$--foreground",
+                              "content": "Olympus Mons Base",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "6R7tg",
+                          "type": "ref",
+                          "ref": "uKYIj",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZtDOq",
+                              "fill": "$--foreground",
+                              "content": "$1,200",
+                              "fontFamily": "$--font-primary",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "prompt",
