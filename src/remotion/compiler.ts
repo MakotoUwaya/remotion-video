@@ -61,20 +61,30 @@ function extractComponentBody(code: string): string {
   // Remove side-effect imports: import "...";
   cleaned = cleaned.replace(/import\s*["'][^"']+["'];?/g, "");
 
-  cleaned = cleaned.trim();
-
   // Extract body from "export const MyAnimation = () => { ... };"
-  const match = cleaned.match(
+  const matchWithBraces = cleaned.match(
     /^([\s\S]*?)export\s+const\s+\w+\s*=\s*\(\s*\)\s*=>\s*\{([\s\S]*)\};?\s*$/,
   );
 
-  if (match) {
-    const helpers = match[1].trim();
-    const body = match[2].trim();
+  if (matchWithBraces) {
+    const helpers = matchWithBraces[1].trim();
+    const body = matchWithBraces[2].trim();
     return helpers ? `${helpers}\n\n${body}` : body;
   }
 
-  return cleaned;
+  // Extract implicit return body from "export const MyAnimation = () => <Component />;"
+  const matchWithoutBraces = cleaned.match(
+    /^([\s\S]*?)export\s+const\s+\w+\s*=\s*\(\s*\)\s*=>\s*([\s\S]*?);?\s*$/,
+  );
+
+  if (matchWithoutBraces) {
+    const helpers = matchWithoutBraces[1].trim();
+    const body = matchWithoutBraces[2].trim();
+    return helpers ? `${helpers}\n\nreturn ${body};` : `return ${body};`;
+  }
+
+  // Fallback: strip export to prevent Babel error if no match
+  return cleaned.replace(/export\s+/g, "");
 }
 
 // Standalone compile function for use outside React components

@@ -17,10 +17,6 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
         defaultProps={{ code: defaultCode }}
-        calculateMetadata={({ props }) => ({
-          durationInFrames: props.durationInFrames as number,
-          fps: props.fps as number,
-        })}
       />
       <Composition
         id="Countdown"
