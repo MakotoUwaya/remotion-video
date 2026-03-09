@@ -5629,7 +5629,7 @@
       "y": -1565,
       "name": "Step 1 Frame",
       "theme": {
-        "Mode": "Light"
+        "Mode": "Dark"
       },
       "clip": true,
       "width": 1440,
