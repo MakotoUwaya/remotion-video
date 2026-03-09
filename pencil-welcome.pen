@@ -6429,6 +6429,240 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "i1WF3",
+              "type": "ref",
+              "ref": "T73Cd",
+              "width": "fill_container",
+              "name": "row5",
+              "children": [
+                {
+                  "id": "n9ttd",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 160,
+                  "children": [
+                    {
+                      "id": "tpE59",
+                      "type": "ref",
+                      "ref": "7KC5U",
+                      "descendants": {
+                        "AWwyf": {
+                          "content": "New"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "3U2yg",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 240,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f6VVW",
+                      "fill": "$--foreground",
+                      "content": "Snoopy-99",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "rNinW",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": "fill_container",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QNg1i",
+                      "fill": "$--foreground",
+                      "content": "Looking for water and bones.",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "pFMk9",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 240,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1IPdT",
+                      "fill": "$--foreground",
+                      "content": "Sol 600",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jpKXZ",
+              "type": "ref",
+              "ref": "T73Cd",
+              "width": "fill_container",
+              "name": "row6",
+              "children": [
+                {
+                  "id": "7dUo6",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 160,
+                  "children": [
+                    {
+                      "id": "Vomn2",
+                      "type": "ref",
+                      "ref": "L8Rgv",
+                      "descendants": {
+                        "glumS": {
+                          "content": "Active"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "jOokF",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 240,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ieZZz",
+                      "fill": "$--foreground",
+                      "content": "Wall-E V2",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "OFlan",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": "fill_container",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yz2Wt",
+                      "fill": "$--foreground",
+                      "content": "Mostly complains about the dust.",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "CrBJF",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 240,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JiPOo",
+                      "fill": "$--foreground",
+                      "content": "Sol 601",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Sxbq0",
+              "type": "ref",
+              "ref": "T73Cd",
+              "width": "fill_container",
+              "name": "row7",
+              "children": [
+                {
+                  "id": "zAoVJ",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 160,
+                  "children": [
+                    {
+                      "id": "DBwGE",
+                      "type": "ref",
+                      "ref": "L8Rgv",
+                      "descendants": {
+                        "glumS": {
+                          "content": "Active"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "rC4s0",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 240,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vNIa9",
+                      "fill": "$--foreground",
+                      "content": "Rock-Muncher 3k",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "waNa7",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": "fill_container",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RGiE0",
+                      "fill": "$--foreground",
+                      "content": "Its diet consists exclusively of red rocks.",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "cGrwv",
+                  "type": "ref",
+                  "ref": "uKYIj",
+                  "width": 240,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6J83y",
+                      "fill": "$--foreground",
+                      "content": "Sol 602",
+                      "fontFamily": "$--font-primary",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
